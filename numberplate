@@ -1,0 +1,4 @@
+from PIL import Image
+import pytesseract
+img = Image.open('data/frame12.jpg')
+print(pytesseract.image_to_string(Image.open('data/frame12.jpg')))
